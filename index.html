@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/andreaskournoutas/utilities.css@2020.03.07/utilities.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap">
+        <title>Umobit assignment</title>
+    </head>
+    <body data-spy="scroll" data-target="#header__nav" data-offset="60" class="position-relative">
+        <header class="header fixed-top">
+            <div class="container-md h-100">
+                <div class="row align-items-center h-100">
+                    <div class="col-auto">
+                        <h1 class="d-flex">
+                            <span class="logo logo--left">MY</span>
+                            <span class="logo logo--right">FOLIO</span>
+                        </h1>
+                    </div>
+                    <div class="col d-flex d-md-none justify-content-end">
+                        <button type="button" class="header__open-off-canvas btn" aria-label="Open mobile menu">
+                            <svg class="bi bi-list" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="col d-none d-md-flex justify-content-end h-100">
+                        <nav id="header__nav" class="nav">
+                            <a class="header__nav-link nav-link h-100 d-flex align-items-center" href="#home">HOME</a>
+                            <a class="header__nav-link nav-link h-100 d-flex align-items-center" href="#about-me">ABOUT ME</a>
+                            <a class="header__nav-link nav-link h-100 d-flex align-items-center" href="#services">SERVICES</a>
+                            <a class="header__nav-link nav-link h-100 d-flex align-items-center" href="#my-work">MY WORK</a>
+                            <a class="header__nav-link nav-link h-100 d-flex align-items-center" href="#contact-me">CONTACT ME</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="home" class="slideshow">
+                <div id="slideshow__carousel" class="carousel slide h-100" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow__carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow__carousel" data-slide-to="1"></li>
+                        <li data-target="#slideshow__carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item h-100 active">
+                            <img src="assets/slidebg.png" class="slideshow__image d-block" alt="...">
+                            <div class="carousel-caption p-0 cx cy">
+                                <h4 class="slideshow__h4">Lorem ipsum dolor sit iusmod tempor</h4>
+                                <h3 class="slideshow__h3">INCIDIDUNT BORE</h3>
+                                <p class="slideshow__p">Orem ipsum dolor sit amet, consectetur</p>
+                                <img src="assets/bracket.png" class="slideshow__bracket d-block mx-auto" alt="">
+                                <a href="#" class="button button__primary btn d-block mx-auto rounded-0">KNOW MORE</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="assets/slidebg.png" class="slideshow__image d-block" alt="...">
+                            <div class="carousel-caption p-0 cx cy">
+                                <h4 class="slideshow__h4">Lorem ipsum dolor sit iusmod tempor</h4>
+                                <h3 class="slideshow__h3">INCIDIDUNT BORE</h3>
+                                <p class="slideshow__p">Orem ipsum dolor sit amet, consectetur</p>
+                                <img src="assets/bracket.png" class="slideshow__bracket d-block mx-auto" alt="">
+                                <a href="#" class="button button__primary btn d-block mx-auto rounded-0">KNOW MORE</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="assets/slidebg.png" class="slideshow__image d-block" alt="...">
+                            <div class="carousel-caption p-0 cx cy">
+                                <h4 class="slideshow__h4">Lorem ipsum dolor sit iusmod tempor</h4>
+                                <h3 class="slideshow__h3">INCIDIDUNT BORE</h3>
+                                <p class="slideshow__p">Orem ipsum dolor sit amet, consectetur</p>
+                                <img src="assets/bracket.png" class="slideshow__bracket d-block mx-auto" alt="">
+                                <a href="#" class="button button__primary btn d-block mx-auto rounded-0">KNOW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#slideshow__carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#slideshow__carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+            <section id="about-me" class="about-me text-center">
+                <div class="container">
+                    <h2 class="section-title">ABOUT ME</h2>
+                    <span class="divider d-block">~~~~~~~~ :: ~~~~~~~~</span>
+                    <p class="section-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <span class="section-intro__bold">quis nostrud exercitation ullamco</span> laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.</p>
+                    <div class="row">
+                        <div class="tile tile--about-me tile--about-me-first col-12 col-sm-6 col-lg-3">
+                            <img src="assets/icon1.png" alt="">
+                            <h3 class="tile-title">Title goes here</h3>
+                            <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                        </div>
+                        <div class="tile tile--about-me tile--about-me-second col-12 col-sm-6 col-lg-3">
+                            <img src="assets/icon2.png" alt="">
+                            <h3 class="tile-title">Title goes here</h3>
+                            <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                        </div>
+                        <div class="tile tile--about-me tile--about-me-third col-12 col-sm-6 col-lg-3">
+                            <img src="assets/icon3.png" alt="">
+                            <h3 class="tile-title">Title goes here</h3>
+                            <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                        </div>
+                        <div class="tile tile--about-me tile--about-me-fourth col-12 col-sm-6 col-lg-3">
+                            <img src="assets/icon4.png" alt="">
+                            <h3 class="tile-title">Title goes here</h3>
+                            <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="services" class="services position-relative">
+                <div class="row no-gutters">
+                    <div class="services__background services__background--left col-12 col-lg-6"></div>
+                    <div class="services__background services__background--right col-12 col-lg-6 d-none d-lg-block"></div>
+                </div>
+                <div class="position-absolute t-0 w-100">
+                    <div class="container">
+                        <div class="row">
+                            <div class="services__content col-12 col-lg-6">
+                                <h2 class="section-title section-title--services">SERVICES</h2>
+                                <span class="divider d-block">~~~~~~~~ :: ~~~~~~~~</span>
+                                <p class="section-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="row">
+                                    <div class="tile tile--services tile--services-first col-12 col-sm-6 col-xl-5">
+                                        <img src="assets/icon5.png" alt="">
+                                        <h3 class="tile-title">Title goes here</h3>
+                                        <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                                    </div>
+                                    <div class="tile tile--services tile--services-first col-12 col-sm-6 col-xl-5 offset-xl-2">
+                                        <img src="assets/icon6.png" alt="">
+                                        <h3 class="tile-title">Title goes here</h3>
+                                        <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                                    </div>
+                                    <div class="tile tile--services tile--services-first col-12 col-sm-6 col-xl-5">
+                                        <img src="assets/icon7.png" alt="">
+                                        <h3 class="tile-title">Title goes here</h3>
+                                        <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                                    </div>
+                                    <div class="tile tile--services tile--services-first col-12 col-sm-6 col-xl-5 offset-xl-2">
+                                        <img src="assets/icon8.png" alt="">
+                                        <h3 class="tile-title">Title goes here</h3>
+                                        <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="my-work" class="my-work text-center">
+                <div class="container">
+                    <h2 class="section-title">MY WORK</h2>
+                    <span class="divider d-block">~~~~~~~~ :: ~~~~~~~~</span>
+                    <p class="section-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="row no-gutters">
+                        <div class="my-work__item col-12 col-sm-6 col-md-4 col-lg-3 position-relative">
+                            <img src="assets/mywork1.png" class="d-block w-100" alt="">
+                            <div class="my-work__overlay position-absolute t-0 l-0 p-15 h-100">
+                                <div class="my-work__overlay-inner d-flex flex-column justify-content-center h-100 p-1">
+                                    <h3 class="tile-title mt-0">Title goes here</h3>
+                                    <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-work__item col-12 col-sm-6 col-md-4 col-lg-3 position-relative">
+                            <img src="assets/mywork2.png" class="d-block w-100" alt="">
+                            <div class="my-work__overlay position-absolute t-0 l-0 p-15 h-100">
+                                <div class="my-work__overlay-inner d-flex flex-column justify-content-center h-100 p-1">
+                                    <h3 class="tile-title mt-0">Title goes here</h3>
+                                    <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-work__item col-12 col-sm-6 col-md-4 col-lg-3 position-relative">
+                            <img src="assets/mywork3.png" class="d-block w-100" alt="">
+                            <div class="my-work__overlay position-absolute t-0 l-0 p-15 h-100">
+                                <div class="my-work__overlay-inner d-flex flex-column justify-content-center h-100 p-1">
+                                    <h3 class="tile-title mt-0">Title goes here</h3>
+                                    <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-work__item col-12 col-sm-6 col-md-4 col-lg-3 position-relative">
+                            <img src="assets/mywork4.png" class="d-block w-100" alt="">
+                            <div class="my-work__overlay position-absolute t-0 l-0 p-15 h-100">
+                                <div class="my-work__overlay-inner d-flex flex-column justify-content-center h-100 p-1">
+                                    <h3 class="tile-title mt-0">Title goes here</h3>
+                                    <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-work__item col-12 col-sm-6 col-md-4 col-lg-3 position-relative">
+                            <img src="assets/mywork5.png" class="d-block w-100" alt="">
+                            <div class="my-work__overlay position-absolute t-0 l-0 p-15 h-100">
+                                <div class="my-work__overlay-inner d-flex flex-column justify-content-center h-100 p-1">
+                                    <h3 class="tile-title mt-0">Title goes here</h3>
+                                    <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-work__item col-12 col-sm-6 col-md-4 col-lg-3 position-relative">
+                            <img src="assets/mywork6.png" class="d-block w-100" alt="">
+                            <div class="my-work__overlay position-absolute t-0 l-0 p-15 h-100">
+                                <div class="my-work__overlay-inner d-flex flex-column justify-content-center h-100 p-1">
+                                    <h3 class="tile-title mt-0">Title goes here</h3>
+                                    <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-work__item col-12 col-sm-6 col-md-4 col-lg-3 position-relative">
+                            <img src="assets/mywork7.png" class="d-block w-100" alt="">
+                            <div class="my-work__overlay position-absolute t-0 l-0 p-15 h-100">
+                                <div class="my-work__overlay-inner d-flex flex-column justify-content-center h-100 p-1">
+                                    <h3 class="tile-title mt-0">Title goes here</h3>
+                                    <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-work__item col-12 col-sm-6 col-md-4 col-lg-3 position-relative">
+                            <img src="assets/mywork8.png" class="d-block w-100" alt="">
+                            <div class="my-work__overlay position-absolute t-0 l-0 p-15 h-100">
+                                <div class="my-work__overlay-inner d-flex flex-column justify-content-center h-100 p-1">
+                                    <h3 class="tile-title mt-0">Title goes here</h3>
+                                    <p class="tile-p">onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact-me" class="contact-me text-center">
+                <div class="container">
+                    <h2 class="section-title">CONTACT ME</h2>
+                    <span class="divider d-block">~~~~~~~~ :: ~~~~~~~~</span>
+                    <p class="section-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="contact-me__form-wrapper">
+                    <div class="container">
+                        <form class="mb-25 position-relative">
+                            <div class="form-group">
+                                <input type="text" class="contact-me__input form-control rounded-0" placeholder="NAME">
+                                <small class="contact-me__error form-text text-danger">Please enter your name</small>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="contact-me__input form-control rounded-0" placeholder="EMAIL ADDRESS">
+                                <small class="contact-me__error form-text text-danger">Please enter your email address</small>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="contact-me__input form-control rounded-0" rows="1" placeholder="MESSAGE"></textarea>
+                                <small class="contact-me__error form-text text-danger">Please write your message</small>
+                            </div>
+                            <button type="button" id="contact-me__submit" class="button button__primary btn d-block mx-auto rounded-0 mt-2">SUBMIT</button>
+                            <div class="spinner-border text-white position-absolute" role="status">
+                                <span class="sr-only">Loading...</span>
+                            </div>
+                        </form>
+                        <span class="contact-me__success form-text text-success">Your message was successfully sent</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer text-center">
+            <span>&copy;MYFOLIO</span>
+        </footer>
+        <div class="dark-layer fixed-top h-100vh"></div>
+        <aside class="off-canvas fixed-top h-100vh shadow">
+            <button type="button" class="off-canvas__close-button btn position-absolute r-0 t-0" aria-label="Close mobile menu">
+                <svg class="bi bi-x" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+                </svg>
+            </button>
+            <div class="off-canvas__logo d-flex justify-content-center align-items-center">
+                <span class="logo logo--left">MY</span>
+                <span class="logo logo--right">FOLIO</span>
+            </div>
+            <nav class="off-canvas__nav nav flex-column">
+                <a class="off-canvas__nav-link nav-link text-center" href="#home">HOME</a>
+                <a class="off-canvas__nav-link nav-link text-center" href="#about-me">ABOUT ME</a>
+                <a class="off-canvas__nav-link nav-link text-center" href="#services">SERVICES</a>
+                <a class="off-canvas__nav-link nav-link text-center" href="#my-work">MY WORK</a>
+                <a class="off-canvas__nav-link nav-link text-center" href="#contact-me">CONTACT ME</a>
+            </nav>
+            <small class="d-block text-center text-white">&copy;MYFOLIO</small>
+        </aside>
+        <div class="visible-xl d-none d-xl-block"></div>
+		<div class="visible-lg d-none d-lg-block d-xl-none"></div>
+		<div class="visible-md d-none d-md-block d-lg-none"></div>
+		<div class="visible-sm d-none d-sm-block d-md-none"></div>
+		<div class="visible-xs d-block d-sm-none"></div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
