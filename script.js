@@ -57,9 +57,10 @@ function validateInput(element) {
 }
 
 function submitForm() {
-    let formIsValid = false;
+    let inputIsValid = false, formIsValid = true;
     $('.contact-me__input').each(function() {
-        formIsValid = validateInput(this);
+        inputIsValid = validateInput(this);
+        formIsValid = formIsValid && inputIsValid;
     });
     if (formIsValid == true) {
         $('.contact-me__input').attr('disabled', 'disabled');
